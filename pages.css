@@ -1,0 +1,17 @@
+h1 {
+	font-family: Arial, sans-serif;
+	color: blue;
+	background-color: grey;
+}
+
+p {
+	font-family: serif;
+	color: purple;
+	background-color: grey;
+}
+
+li {
+	font-family: sans-serif;
+	color: red;
+	background-color: grey;
+}
