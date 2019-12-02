@@ -16,6 +16,7 @@ p {
 	font-family: serif;
 	color: #2900ac; /*rgb(41,0,172);*/
 	font-size: 20px;
+  width: 50%;
 }
 
 li {
@@ -40,4 +41,19 @@ a:visited {
 a:active {
 	color: #800080; /*rgb(128,0,128)*/;
 	font-weight: bold;
+}
+
+#links li {
+	display: inline-block;
+}
+
+table {
+  display: inline-block;
+  width: 100%;
+  margin: 10px;
+}
+
+img {
+  float:right;
+  margin: 5px;
 }
