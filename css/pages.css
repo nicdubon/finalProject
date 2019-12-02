@@ -1,26 +1,26 @@
 h1 {
 	font-family: Arial, sans-serif;
-	color: #000000 rgb(0,0,0);
+	color: #000000; /*rgb(0,0,0);*/
 	font-weight: bold;
 }
 
 h2 {
   font-family: sans-serif;
-  color: #800000 rgb(128,0,0);
+  color: #800000; /*rgb(128,0,0);*/
   font-style: italic;
 }
 
 p {
 	font-family: serif;
-	color: #0000FF rgb(0,0,225);
+	color: #0000FF; /*rgb(0,0,225);*/
 }
 
 li {
 	font-family: sans-serif;
-	color: #0000FF rgb(0,0,225);
+	color: #0000FF; /*rgb(0,0,225);*/
 }
 
 body {
-	background-color: #808080 rgb(128,128,128);
+	background-color: #808080; /*rgb(128,128,128);*/
 	font-family: Arial, sans-serif;
 }
