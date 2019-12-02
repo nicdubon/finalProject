@@ -28,3 +28,16 @@ body {
 	background-color: #808080; /*rgb(128,128,128);*/
 	font-family: Arial, sans-serif;
 }
+
+a:link {
+	color: #0000FF; /*rgb(0,0,255)*/
+}
+
+a:visited {
+	color: #800080; /*rgb(128,0,128)*/
+}
+
+a:active {
+	color: #800080; /*rgb(128,0,128)*/;
+	font-weight: bold;
+}
