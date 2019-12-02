@@ -17,7 +17,6 @@ h2 {
 li {
 	padding: 30px, 0px, 0px, 20px;
 	line-height: 1.6em;
-	color: #0000FF; /*rgb(0,0,255)*/;
 	font-size: 16px;
 }
 
@@ -26,4 +25,17 @@ body {
 	background-color: #808080; /*rgb(128,128,128);*/
 	/* background-image: url (../images/me_background.jpeg);*/
 	background-position: bottom;
+}
+
+a:link {
+	color: #0000FF; /*rgb(0,0,255)*/
+}
+
+a:visited {
+	color: #800080; /*rgb(128,0,128)*/
+}
+
+a:active {
+	color: #800080; /*rgb(128,0,128)*/;
+	font-weight: bold;
 }
