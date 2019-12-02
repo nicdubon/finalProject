@@ -1,13 +1,13 @@
 title {
 	padding: 10px, 0px, 0px, 10px;
-	color: #000000 rgb(0,0,0);
+	color: #000000 /*rgb(0,0,0);*/
 	font-family: arial, sans-serif;
 	font-weight: bold;
 }
 
 h2 {
 	padding: 20px, 0px, 0px, 15px;
-	color: #800000 rgb(128,0,0);
+	color: #800000; /*rgb(128,0,0);*/
 	font-style: italic;
 
 }
@@ -15,7 +15,7 @@ h2 {
 li {
 	padding: 30px, 0px, 0px, 20px;
 	line-height: 1.6em;
-	color: #0000FF, rgb(0,0,255);
+	color: #0000FF; /*rgb(0,0,255)*/;
 }
 
 body {
