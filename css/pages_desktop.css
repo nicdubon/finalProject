@@ -1,0 +1,10 @@
+@media screen and (min-width:481px){
+
+	#soccer #softball {
+	  float: left;
+	}
+
+	#basketball #rugby {
+	  float: right;
+	}
+}
