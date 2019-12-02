@@ -20,8 +20,8 @@ li {
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #808080 rgb(128,128,128);
-	background-image: url (../images/me_background.jpeg);
+	background-color: grey; /*#808080 rgb(128,128,128);*/
+	/* background-image: url (../images/me_background.jpeg);*/
 	background-position: bottom;
 
 }
