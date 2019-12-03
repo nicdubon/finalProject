@@ -1,3 +1,15 @@
+table {
+  display: inline-block;
+  width: 99%;
+  margin: 10px;
+}
+
+img {
+  float:right;
+  top: 50px;
+  right: 0px;
+}
+
 h1 {
 	font-family: Arial, sans-serif;
 	color: #000000; /*rgb(0,0,0);*/
@@ -16,7 +28,7 @@ p {
 	font-family: serif;
 	color: #2900ac; /*rgb(41,0,172);*/
 	font-size: 20px;
-  width: 50%;
+  	width: 100%;
 }
 
 li {
@@ -28,6 +40,9 @@ li {
 body {
 	background-color: #808080; /*rgb(128,128,128);*/
 	font-family: Arial, sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 0px;
 }
 
 a:link {
@@ -45,15 +60,4 @@ a:active {
 
 #links li {
 	display: inline-block;
-}
-
-table {
-  display: inline-block;
-  width: 100%;
-  margin: 10px;
-}
-
-img {
-  float:right;
-  margin: 5px;
 }
