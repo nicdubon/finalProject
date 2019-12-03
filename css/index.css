@@ -1,6 +1,6 @@
 h1 {
 	padding: 10px, 0px, 0px, 10px;
-	color: #000000; /*rgb(0,0,0);*/
+	/*color: #000000; /*rgb(0,0,0);*/
 	font-family: arial, sans-serif;
 	font-weight: bold;
 	font-size: 40px;
@@ -8,7 +8,7 @@ h1 {
 
 h2 {
 	padding: 20px, 0px, 0px, 15px;
-	color: #800000; /*rgb(128,0,0);*/
+	/*color: #800000; /*rgb(128,0,0);*/
 	font-style: italic;
 	font-size: 30px;
 }
