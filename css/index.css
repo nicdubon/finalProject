@@ -20,12 +20,7 @@ li {
 }
 
 body {
-	padding: 10px 20px;
 	font-family: Arial, sans-serif;
-	background-image: url(../images/me_background.jpeg);
-	background-position: bottom;
-	background-repeat: repeat-y;
-	background-position: top right;
 }
 
 a:link {
@@ -43,4 +38,18 @@ a:active {
 
 #links li {
 	display: inline-block;
+}
+
+body, html {
+	height: 100%;
+}
+
+.parallax {
+	background-image: url(../images/stars.jpeg);
+	height: 50%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
