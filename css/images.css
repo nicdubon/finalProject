@@ -1,0 +1,38 @@
+head, body {
+	background-color: #000000; /*rgb(0,0,0);*/
+}
+
+h1 {
+  padding: 10px;
+  color: #800000; /*rgb(128,0,0)*/
+  font-family: arial, sans-serif;
+  font-size: 40px;
+}
+
+li {
+	font-family: sans-serif;
+	color: #0000FF; /*rgb(0,0,225);*/
+	font-size: 16px;
+}
+
+a:link {
+	color: #0000FF; /*rgb(0,0,255)*/
+}
+
+a:visited {
+	color: #800080; /*rgb(128,0,128)*/
+}
+
+a:active {
+	color: #800080; /*rgb(128,0,128)*/;
+	font-weight: bold;
+}
+
+#links li {
+	display: inline-block;
+}
+
+head, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
