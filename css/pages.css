@@ -1,12 +1,6 @@
-table {
-  display: inline-block;
-  width: 99%;
-  margin: 10px;
-}
-
-img {
+#picture {
   float:right;
-  top: 50px;
+  top: 10px;
   right: 0px;
 }
 
@@ -24,7 +18,7 @@ h2 {
   font-size: 30px;
 }
 
-p {
+#text {
 	font-family: serif;
 	color: #2900ac; /*rgb(41,0,172);*/
 	font-size: 20px;
@@ -60,4 +54,9 @@ a:active {
 
 #links li {
 	display: inline-block;
+}
+
+head, body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
