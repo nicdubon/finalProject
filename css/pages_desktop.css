@@ -1,10 +1,28 @@
 @media screen and (min-width:481px){
 
+	.table-container {
+		display: table;
+		border-spacing: 10px;
+	}
+
+	.table-row {
+		display: table-row;
+	}
+
+	.table-cell {
+		display: table-cell;
+		vertical-align: top;
+	}
+
 	#soccer #softball {
-	  float: left;
+	  position: absolute;
+	  left: 10px;
+	  width: 50%;
 	}
 
 	#basketball #rugby {
-	  float: right;
+	  position: absolute;
+	  right: 10px;
+	  width: 50%;
 	}
 }
