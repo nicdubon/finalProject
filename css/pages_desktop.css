@@ -1,38 +1,56 @@
-@media screen and (min-width:481px){
+h1 {
+	font-size: 40px;
+}
 
-	.table-container {
-		display: table;
-		border-spacing: 10px;
-	}
+h2 {
+	font-size: 30px;
+}
 
-	.table-row {
-		display: table-row;
-	}
+#text {
+	font-size: 20px;
+}
 
-	.table-cell {
-		display: table-cell;
-		vertical-align: top;
-	}
+li {
+	font-size: 16px;
+}
 
-	#soccer #softball {
-	  position: absolute;
-	  left: 10px;
-	  width: 50%;
-	}
+body {
+	top: 50px; 
+	left: 0px;
+}
 
-	#basketball #rugby {
-	  position: absolute;
-	  right: 10px;
-	  width: 50%;
-	}
+.table-container {
+	display: table;
+	border-spacing: 10px;
+}
 
-	.thumbnail:hover {
-		position: relative;
-		top:-25px;
-		left: -35px;
-		width: 500px;
-		height: auto;
-		display: block;
-		z-index: 999;
-	}
+.table-row {
+	display: table-row;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#soccer #softball {
+  position: absolute;
+  left: 10px;
+  width: 50%;
+}
+
+#basketball #rugby {
+  position: absolute;
+  right: 10px;
+  width: 50%;
+}
+
+.thumbnail:hover {
+	position: relative;
+	top:-25px;
+	left: -35px;
+	width: 500px;
+	height: auto;
+	display: block;
+	z-index: 999;
 }
