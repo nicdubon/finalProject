@@ -32,7 +32,12 @@ a:active {
 	display: inline-block;
 }
 
-head, body {
-	max-width: 100%;
-	overflow-x: hidden;
+.thumbnail:hover {
+	position: relative;
+	top:-25px;
+	left: -35px;
+	width: 500px;
+	height: auto;
+	display: block;
+	z-index: 999;
 }
