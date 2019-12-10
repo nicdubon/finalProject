@@ -28,39 +28,39 @@
     <h1>IMAGE GALLERY</h1>>
     <div id = "photo" class="thumbnail"></div><BR><BR>
     <script type = "text/babel">
-      var img src = React.createClass({
+      var Image = React.createClass({
           render: function() {
-            return <div><img src = "../images/" {this.props.image}</div>;
+            return <div><img src = "../images/{this.props.name}"/></div>;
           }
       });
 
-      var EachPhoto = React.createClass({
+      var PhotoCollection = React.createClass({
           render: function() {
             return ( 
              <div>
-               <"emsc.jpeg" />
-               <"family.png" />
-               <"grad.jpeg" />
-               <"jvbball" />
-               <"mepham_high_school.jpeg" /> 
-                <"mepham_pirate.jpeg" />
-               <"mepham_soccer.jpeg" />
-               <"mephambball.png" />
-               <"mgvs.jpeg" />
-               <"nbnm.jpeg" /> 
-                <"revs.jpeg" />
-               <"rugbyfriends.jpeg" />
-               <"rugbylift.jpeg" />
-               <"rugbytackle.jpeg" />
-               <"rugbyteam.jpeg" /> 
-               <"stars.jpeg" />
+               <Image Name = "emsc.jpeg" />
+               <Image Name = "family.png" />
+               <Image Name = "grad.jpeg" />
+               <Image Name = "jvbball" />
+               <Image Name = "mepham_high_school.jpeg" /> 
+              <Image Name = "mepham_pirate.jpeg" />
+               <Image Name = "mepham_soccer.jpeg" />
+               <Image Name = "mephambball.png" />
+               <Image Name = "mgvs.jpeg" />
+               <Image Name = "nbnm.jpeg" /> 
+                <Image Name = "revs.jpeg" />
+               <Image Name = "rugbyfriends.jpeg" />
+               <Image Name = "rugbylift.jpeg" />
+               <Image Name = "rugbytackle.jpeg" />
+               <Image Name = "rugbyteam.jpeg" /> 
+               <Image Name = "stars.jpeg" />
              </div>
             );
           }
       });
 
       var mountNode = document.getElementById('photo');
-      ReactDOM.render(<EachPhoto />, mountNode);
+      ReactDOM.render(<PhotoCollection />, mountNode);
     </script>
   </body>
 </html>
